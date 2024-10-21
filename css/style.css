@@ -1,0 +1,613 @@
+/* -----------------ALL COMMON CSS ---------------------------*/
+:root {
+  --primary: #b88e2f;
+  --secondery: #000;
+  --tetory: #fff3e3;
+  --font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", serif;
+}
+.container {
+  width: 1240px;
+  margin: auto;
+}
+ul,
+ol {
+  list-style: none;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: var(--font-family);
+}
+.btn-primery {
+  background-color: var(--primary);
+  padding: 12px 36px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+  display: inline-block;
+}
+/* -----------------ALL COMMON CSS ---------------------------*/
+
+/* NAVBAR CSS HERE */
+header {
+  background-color: #fff;
+}
+.nav-wrapper {
+  justify-content: center;
+  align-items: center;
+  padding: 19px 0;
+}
+.nav-img {
+  width: 20%;
+}
+.nav-img img {
+  width: 185px;
+}
+.nav-menubar {
+  width: 50%;
+}
+.maenubar-parent {
+  justify-content: center;
+}
+.nav-menubar .maenubar-parent li a {
+  font-weight: 500;
+  font-size: 16px;
+  color: #000;
+  padding: 38px 0;
+  display: inline-block;
+  padding: 0 75px 0 0;
+}
+.quicklinks {
+  width: 30%;
+}
+.quicklinks a {
+  padding: 0 22.5px;
+}
+.quicklinks a img {
+  width: 28px;
+  height: 28px;
+}
+
+/* NAVBAR CSS END */
+
+/* BANNER AND CONTENT CSS HERE */
+
+#banner-and-content {
+  background-image: url(../image/wl-1.png);
+  width: 100%;
+  height: 716px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.bannerctn {
+  background-color: #fff3e3;
+  width: 643px;
+  height: 443x;
+  padding: 62px 43px 37px 43px;
+  position: absolute;
+  right: 58px;
+  top: 153px;
+}
+.bannerctn h5 {
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.19em;
+  color: #333;
+}
+.bannerctn h1 {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 125%;
+  color: var(--primary);
+  margin: 4px 0 17px;
+}
+.bannerctn p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 133%;
+  color: #333;
+  margin: 0 0 46px;
+}
+
+/* BANNER AND CONTENT CSS END */
+/* BROWSER THE RANGE OF OUR PRODUCT SECTION  */
+.header-text {
+  margin: 56px 0 62px;
+  text-align: center;
+}
+.header-text h3 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #333;
+}
+.header-text p {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #666;
+}
+.bproduct {
+  display: flex;
+  width: calc(33.33%);
+}
+.bproduct a {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  color: #333;
+  display: inline-block;
+  margin: 0 0 56px;
+}
+.bproduct a img {
+  margin: 0 10px;
+  border-radius: 10px;
+}
+
+/* BROWSER THE RANGE OF OUR PRODUCT SECTION END */
+
+/* OUR PRODUCT SECTION HERE */
+.product-card {
+  width: calc(25% - 32px);
+  margin: 0 16px 32px;
+  position: relative;
+  overflow: hidden;
+}
+.product-card .pd-img img {
+  width: 100%;
+}
+.product-card .pd-img {
+  position: relative;
+  display: block;
+}
+.product-card .pd-content {
+  padding: 16px 12px 30px;
+}
+.product-card .pd-content h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  color: #3a3a3a;
+}
+.product-card .pd-content p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #898989;
+  margin: 8px 0;
+}
+.product-card .pd-content h2 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: #3a3a3a;
+}
+.product-card .pd-content h2 span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-decoration: line-through;
+  color: #b0b0b0;
+  margin-left: 16px;
+}
+.discountlebel {
+  color: #fff;
+  background-color: #e97171;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  border-radius: 50%;
+  line-height: 48px;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+.newlebel{
+  color: #fff;
+  background-color: #2EC1AC;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+  width: 48px;
+  text-align: center;
+  height: 48px;
+  display: inline-block;
+  border-radius: 50%;
+  line-height: 48px;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+#product .product-card .overley {
+  background-color: rgba(58, 58, 58, 0.5);
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(100%);
+  transition: all 0.3s ease;
+}
+#product .product-card .overley .cnt {
+  width: 165px;
+  margin-top: 100px;
+}
+#product .product-card .overley .cnt .btn-primery {
+  color: var(--primary);
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+#product .product-card .overley .cnt .btn-primery:hover {
+  color: #fff;
+  background-color: var(--primary);
+}
+#product .product-card .overley .hover-links a {
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  margin: 0px 8px;
+}
+#product .product-card .overley .hover-links {
+  display: inline-block;
+  margin-top: -247px;
+}
+#product .product-card:hover .overley {
+  transform: translateY(0);
+}
+#product .product-card:hover .overley {
+  transform: translateY(0);
+}
+.show-btn {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 81px;
+}
+.show-btn .btn-primery {
+  background-color: #fff;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 4px;
+  padding: 12px 74px;
+  transition: all 0.3s ease;
+}
+.show-btn .btn-primery:hover {
+  background-color: var(--primary);
+  color: #fff;
+}
+
+/* OUR PRODUCT SECTION END */
+
+/* ROOMS INSPIRATION SECTION */
+#rooms-inspiration {
+  width: 1440px;
+  height: 670px;
+  background-color: #fff3e3;
+  margin: auto;
+  overflow: hidden;
+  margin-bottom: 67px;
+}
+.rooms-content h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  color: #3a3a3a;
+}
+.rooms-content p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #616161;
+  margin: 7px 0;
+}
+.rooms-content {
+  width: 385px;
+  margin: 223px 42px 0 100px;
+}
+.rooms-content .btn-primery {
+  display: inline-block;
+  margin-top: 25px;
+  transition: 0.3s;
+}
+.rooms-content .btn-primery:hover {
+  color: var(--primary);
+  background-color: #fff;
+  border: 1px solid var(--primary);
+}
+.bd-img {
+  position: relative;
+}
+.bd-img a img {
+  max-width: 404px;
+  height: 582px;
+  margin: 44px 24px 44px 0;
+}
+.bd-img .inner-overley {
+  width: 217px;
+  height: 130px;
+  background-color: #ffffffaa;
+  position: absolute;
+  bottom: 24;
+  left: 24;
+  left: 24px;
+  bottom: 96px;
+  padding: 32px 17px;
+}
+.bd-img .inner-overley p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #616161;
+}
+.bd-img .inner-overley h3 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 120%;
+  color: #3a3a3a;
+  display: inline-block;
+}
+.bd-img .inner-overley a {
+  background-color: var(--primary);
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  transform: translate(200px, -8px);
+  color: white;
+  width: 48px;
+  height: 48px;
+  justify-content: center;
+}
+.bd-img-2 {
+  max-width: 372px;
+  height: 486px;
+  margin: 44px 24px 0 0;
+  position: relative;
+}
+.bd-img-2 .arrow {
+  position: absolute;
+  /* right: 0; */
+  width: 48px;
+  height: 48px;
+  color: var(--primary);
+  background-color: #fff;
+  border-radius: 50%;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 43%;
+  right: -20px;
+  box-shadow: 0 2px 2px 0px rgba(58, 58, 58, 0.2);
+  transition: 0.3s;
+}
+.bd-img-2 .arrow:hover {
+  color: #fff;
+  background-color: var(--primary);
+}
+.indicator {
+  display: inline-block;
+  margin-top: 40px;
+}
+.image-3 {
+  height: 486px;
+  position: absolute;
+  top: 0;
+  right: -400px;
+}
+
+/* ROOMS INSPIRATION SECTION END */
+
+/*-- FURNITURE SECTION HERE--*/
+#furniture{
+  max-width: 1440px;
+  height: 780px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.furniture-heading {
+  text-align: center;
+}
+.furniture-heading p {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  color: #616161;
+}
+.furniture-heading h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  text-align: center;
+  color: #3a3a3a;
+}
+.furniture-wrapper{
+  margin: 0 33px;
+}
+.img-parent{
+  position: relative;
+}
+.img-1{
+  position: absolute;
+  top: -27px;
+  width: 274px;
+  height: 382px;
+  display: inline-block;
+}
+.img-2{
+  position: absolute;
+  top: 43px;
+  left: 90px;
+  width: 451px;
+  height: 312px;
+  display: inline-block;
+}
+.img-3{
+  position: absolute;
+  top: 129px;
+  left: 555px;
+  width: 295px;
+  height: 392px;
+  display: inline-block;
+}
+.img-4{
+  position: absolute;
+  top: 72px;
+  left: 864px;
+  width: 290px;
+  height: 348px;
+  display: inline-block;
+}
+.img-5{
+  position: absolute;
+  top: -14px;
+  right: -220px;
+  width: 425px;
+  height: 433px;
+  display: inline-block;
+}
+.img-6{
+  position: absolute;
+  top:370px;
+  left: 0;
+  width: 321px;
+  height: 323px;
+  display: inline-block;
+}
+.img-7{
+  position: absolute;
+  top:370px;
+  left: 199px;
+  width: 344px;
+  height: 242px;
+  display: inline-block;
+}
+.img-8{
+  position: absolute;
+  top: 435px;
+  left: 864px;
+  width: 178px;
+  height: 242px;
+  display: inline-block;
+}
+.img-9{
+  position: absolute;
+  top: 435px;
+  right: 60px;
+  width: 258px;
+  height: 196px;
+  display: inline-block;
+}
+
+
+/*-- FURNITURE SECTION END--*/
+/* FOOTER CSS HERE */
+#footer-section{
+  width: 1440px;
+  height: 400px;
+  background-color: #fff;
+  margin: auto;
+}
+.footer-wrapper{
+  width: 1133px;
+  height: 312px;
+  margin: auto;
+  justify-content: space-between;
+  border-bottom: 1px solid #9f9f9f;
+}
+.footer-cnt{
+  width: 30%;
+}
+.footer-cnt p span{
+  display: block;
+}
+.footer-cnt h3{
+  font-weight: 700;
+  font-size: 24px;
+  color: #000;
+  margin-bottom: 50px;
+}
+.footer-cnt p{
+  font-weight: 400;
+font-size: 16px;
+color: #9f9f9f;
+}
+.footer-head{
+  font-weight: 500;
+font-size: 16px;
+color: #9f9f9f;
+}
+.footer-head a{
+  font-weight: 500;
+  font-size: 16px;
+  color: #9f9f9f !important;
+  line-height: 200%;
+}
+.flinks li a{
+  font-weight: 500;
+  font-size: 16px;
+  color: #000;
+  line-height: 265%;
+}
+.fhelp li a{
+  font-weight: 500;
+  font-size: 16px;
+  color: #000;
+  line-height: 265%;
+}
+.footer-news{
+  line-height: 265%;
+}
+.footer-news .esub input{
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #000;
+width: 200px;
+font-weight: 400;
+font-size: 14px;
+color: #9f9f9f;
+margin-right: 11px;
+}
+.footer-news .esub a{
+  border-bottom: 1px solid #000;
+  width: 75px;
+  height: 0px;
+  font-weight: 500;
+font-size: 14px;
+color: #000;
+}
+.last-p{
+  width: 1133px;
+  margin: auto;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-weight: 400;
+font-size: 16px;
+color: #000;
+padding: 30px 0;
+}
+
+
+/* FOOTER CSS END */
